@@ -1,0 +1,9 @@
+mongodb+srv://valentinpuillandre:<db_password>@valentin.wump3.mongodb.net/<database>
+
+npm run dev
+
+npm install pm2@latest -g
+pm2 start index.js
+pm2 monit
+pm2 delete 0
+pm2 link 1megkgohfvampfx 7bdlx4gsycvinff
